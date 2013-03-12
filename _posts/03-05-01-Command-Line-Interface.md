@@ -2,9 +2,9 @@
 isChild: true
 ---
 
-## Command Line Interface
+## Command Line Interface {#command_line_interface_title}
 
-PHP was created primarily to write web applications, but it's also useful for scripting command line interface (CLI) programs, too. Command line PHP programs can help you automate common tasks like testing, deployment, and application administrativia.
+PHP was created primarily to write web applications, but it's also useful for scripting command line interface (CLI) programs. Command line PHP programs can help you automate common tasks like testing, deployment, and application administrativia.
 
 CLI PHP programs are powerful because you can use your app's code directly without having to create and secure a web GUI for it. Just be sure not to put your CLI PHP scripts in your public web root!
 
@@ -22,7 +22,7 @@ Let's write a simple "Hello, $name" CLI program. To try it out, create a file na
 
 {% highlight php %}
 <?php
-if($argc != 2) {
+if ($argc != 2) {
     echo "Usage: php hello.php [name].\n";
     exit(1);
 }
